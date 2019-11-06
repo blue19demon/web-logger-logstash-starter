@@ -22,17 +22,19 @@ import com.logstash.annos.API;
 import com.logstash.annos.LogstashModule;
 import com.logstash.bean.OperatorLog;
 import com.logstash.core.OptLogService;
+import com.logstash.log.Logger;
+import com.logstash.log.LoggerFactoy;
 import com.logstash.utils.LogAopUtil;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Aspect
 @Component
-@Slf4j
 public class WebRequestLogAspect {
 
 	private ThreadLocal<OperatorLog> tlocal = new ThreadLocal<OperatorLog>();
 
+	private static Logger log = LoggerFactoy.log(WebRequestLogAspect.class);
 	@Autowired
 	private OptLogService optLogService;
 

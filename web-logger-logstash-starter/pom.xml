@@ -55,9 +55,10 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.16.8</version>
+			<version>1.18.6</version>
 			<scope>provided</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>javassist</groupId>
 			<artifactId>javassist</artifactId>
