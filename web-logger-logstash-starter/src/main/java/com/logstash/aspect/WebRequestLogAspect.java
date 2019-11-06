@@ -152,6 +152,7 @@ public class WebRequestLogAspect {
 		if (optLog != null) {
 			optLog.setExcName(e.getClass().getName()); // 异常名称
 			optLog.setExcMessage(stackTraceToString(e.getClass().getName(), e.getMessage(), e.getStackTrace())); // 异常信息
+			log.error("发生错误了", e);
 			handleLogs(null, optLog);
 		}
 	}

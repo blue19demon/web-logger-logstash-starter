@@ -24,6 +24,9 @@ public class FileLogAppendeServiceManager implements LogAppenderService{
 		try {
 			operatorLog.setSystem(sysCode);
 			File logFile =new File(logFilePath);
+			if(!logFile.exists()) {
+				logFile.createNewFile();
+			}
 			fileWriter = new FileWriter(logFile,true);//创建文本文件
 			fileWriter.write(JSONObject.toJSONString(operatorLog, true)+"\r\n");//写入 \r\n换行
 			fileWriter.flush();

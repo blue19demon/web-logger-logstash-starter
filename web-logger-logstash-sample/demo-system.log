@@ -1,0 +1,92 @@
+{
+	"api":"资源记录",
+	"beanName":"com.logstash.ResourcesController",
+	"excuteTime":56,
+	"module":"资源管理",
+	"params":"",
+	"remoteAddr":"127.0.0.1",
+	"requestMethod":"GET",
+	"result":"com.logstash.JSONOperation@b34f222",
+	"sessionId":"84F6B6E5CCAB318D0A98425624623341",
+	"system":"demo-system",
+	"time":"2019年11月06日 16时46分23.446秒",
+	"uri":"http://127.0.0.1:8080/resources"
+}
+{
+	"api":"资源记录",
+	"beanName":"com.logstash.ResourcesController",
+	"excuteTime":1,
+	"module":"资源管理",
+	"params":"",
+	"remoteAddr":"127.0.0.1",
+	"requestMethod":"GET",
+	"result":"com.logstash.JSONOperation@7ba201bb",
+	"sessionId":"84F6B6E5CCAB318D0A98425624623341",
+	"system":"demo-system",
+	"time":"2019年11月06日 16时46分48.721秒",
+	"uri":"http://127.0.0.1:8080/resources"
+}
+{
+	"api":"资源记录",
+	"beanName":"com.logstash.ResourcesController",
+	"excMessage":"java.lang.ArithmeticException:/ by zero\n\tcom.logstash.ResourcesController.resources(ResourcesController.java:18)\ncom.logstash.ResourcesController$$FastClassBySpringCGLIB$$60c41311.invoke(<generated>)\norg.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)\norg.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)\norg.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)\norg.springf.....",
+	"excName":"java.lang.ArithmeticException",
+	"excuteTime":45,
+	"module":"资源管理",
+	"params":"",
+	"remoteAddr":"127.0.0.1",
+	"requestMethod":"GET",
+	"result":"",
+	"sessionId":"1E772F9736FF0473E14C8697025CD433",
+	"system":"demo-system",
+	"time":"2019年11月06日 16时47分48.247秒",
+	"uri":"http://127.0.0.1:8080/resources"
+}
+{
+	"api":"资源记录",
+	"beanName":"com.logstash.ResourcesController",
+	"excMessage":"java.lang.ArithmeticException:/ by zero\n\tcom.logstash.ResourcesController.resources(ResourcesController.java:18)\ncom.logstash.ResourcesController$$FastClassBySpringCGLIB$$60c41311.invoke(<generated>)\norg.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)\norg.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)\norg.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)\norg.springf.....",
+	"excName":"java.lang.ArithmeticException",
+	"excuteTime":43,
+	"module":"资源管理",
+	"params":"",
+	"remoteAddr":"127.0.0.1",
+	"requestMethod":"GET",
+	"result":"",
+	"sessionId":"E486D9723F69914DE8566F08126F9062",
+	"system":"demo-system",
+	"time":"2019年11月06日 17时23分11.357秒",
+	"uri":"http://127.0.0.1:8080/resources"
+}
+{
+	"api":"资源记录",
+	"beanName":"com.logstash.ResourcesController",
+	"excMessage":"java.lang.ArithmeticException:/ by zero\n\tcom.logstash.ResourcesController.resources(ResourcesController.java:18)\ncom.logstash.ResourcesController$$FastClassBySpringCGLIB$$60c41311.invoke(<generated>)\norg.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)\norg.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)\norg.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)\norg.springf.....",
+	"excName":"java.lang.ArithmeticException",
+	"excuteTime":44,
+	"module":"资源管理",
+	"params":"",
+	"remoteAddr":"127.0.0.1",
+	"requestMethod":"GET",
+	"result":"",
+	"sessionId":"7CC5D6D2471702CA1F9D241E320B714F",
+	"system":"demo-system",
+	"time":"2019年11月06日 17时24分18.418秒",
+	"uri":"http://127.0.0.1:8080/resources"
+}
+{
+	"api":"资源记录",
+	"beanName":"com.logstash.ResourcesController",
+	"excMessage":"java.lang.ArithmeticException:/ by zero\n\tcom.logstash.ResourcesController.resources(ResourcesController.java:18)\ncom.logstash.ResourcesController$$FastClassBySpringCGLIB$$60c41311.invoke(<generated>)\norg.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)\norg.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)\norg.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)\norg.springf.....",
+	"excName":"java.lang.ArithmeticException",
+	"excuteTime":52,
+	"module":"资源管理",
+	"params":"",
+	"remoteAddr":"127.0.0.1",
+	"requestMethod":"GET",
+	"result":"",
+	"sessionId":"81F9F93659659AC63E41D330D1FD7F18",
+	"system":"demo-system",
+	"time":"2019年11月06日 17时27分01.501秒",
+	"uri":"http://127.0.0.1:8080/resources"
+}

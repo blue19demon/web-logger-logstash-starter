@@ -20,6 +20,6 @@ public interface Logger {
     }
 	void info(String string);
 
-	void error(String string, Exception e);
+	void error(String string, Throwable e);
 
 }
