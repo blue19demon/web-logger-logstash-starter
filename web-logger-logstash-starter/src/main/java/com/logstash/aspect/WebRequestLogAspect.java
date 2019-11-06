@@ -27,8 +27,8 @@ import com.logstash.utils.LogAopUtil;
 import lombok.extern.slf4j.Slf4j;
 
 @Aspect
-@Slf4j
 @Component
+@Slf4j
 public class WebRequestLogAspect {
 
 	private ThreadLocal<OperatorLog> tlocal = new ThreadLocal<OperatorLog>();
